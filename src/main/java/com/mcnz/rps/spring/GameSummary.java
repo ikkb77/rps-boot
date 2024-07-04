@@ -9,7 +9,7 @@ import javax.persistence.Id;
 import javax.persistence.NamedQuery;
 import javax.persistence.Table;
 
-
+//
  
 @Entity
 @Table(name = "GAMESUMMARY")
