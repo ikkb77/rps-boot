@@ -1,0 +1,3 @@
+<FindBugsFilter>
+    <Class name="~.*\.LICENSE" /> <SourceLine sourcefile="LICENSE" />
+</FindBugsFilter>
