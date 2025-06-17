@@ -25,7 +25,7 @@ public class Score {
 	private int wins, losses, ties;
 	
 	public void increaseWins(){
-		System.out.println("Increasing wins in the bean");
+		System.out.println("Increasing wins in the bean");;
 		wins++;
 	}
 	public void increaseLosses(){
