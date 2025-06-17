@@ -11,6 +11,15 @@
 
 	<name>demo</name>
 	<description>Demo project for Spring Boot</description>
+	<dependencyManagement>
+		<dependencies>
+			<dependency>
+				<groupId>org.apache.tomcat.embed</groupId>
+				<artifactId>tomcat-embed-core</artifactId>
+				<version>9.0.90</version>
+			</dependency>
+		</dependencies>
+	</dependencyManagement>
 
 	<parent>
 		<groupId>org.springframework.boot</groupId>
