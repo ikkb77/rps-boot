@@ -112,7 +112,7 @@
 					<includeFilterFile>spotbugs-security-include.xml</includeFilterFile>
 					<excludeFilterFile>spotbugs-security-exclude.xml</excludeFilterFile>
 					<xmlOutput>true</xmlOutput>
-					<outputFile>${project.build.directory}/spotbugsXml.xml</outputFile>
+					<outputFile>spotbugsXml.xml</outputFile>
 					<plugins>
 						<plugin>
 							<groupId>com.h3xstream.findsecbugs</groupId>
