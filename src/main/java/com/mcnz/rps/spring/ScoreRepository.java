@@ -38,7 +38,7 @@ public class ScoreRepository {
 		System.out.println("Number of scores: " + scores.size());
 		if (scores.size()>0) {
 			//score = (Score)scores.get(0);
-			score = entityManager.find(Score.class, new Long(1));
+			score = entityManager.find(Score.class, Long.valueOf(1));
 		} else {
 			score = new Score();
 			entityManager.persist(score);
